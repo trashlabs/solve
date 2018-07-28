@@ -1,0 +1,365 @@
+#Cabecera {
+	font-family: 'Muli', sans-serif;
+	height: 80px;
+}
+a {
+    text-decoration:none;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    color: dimgrey;
+}
+
+.menuizq,.menuder{
+    top:-60px;
+    display:inline;
+}
+
+h1{
+    color: gray;
+	font-family: 'Muli', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    top:-70px;
+}
+h2{
+    color: gray;
+	font-family: 'Muli', sans-serif;
+	text-align: left;
+}
+.menuizq{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 0.85714rem 1.71429rem;
+    display: inline;
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color:none;
+    color:none;
+    transform: scale(1);
+    font-size: 18px;
+    float: left;
+}
+.menuder{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 0.85714rem 1.71429rem;
+    display: inline;
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color:none;
+    color:none;
+    transform: scale(1);
+    font-size: 18px;
+    float: right;
+}
+.logo{
+    width: 7%;
+    margin-left: 200px;
+}
+.menuinf{
+    font-family: 'Muli', sans-serif;
+    margin-left:400px;
+    position: relative;
+    z-index: 1;
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color:none;
+    color:none;
+    transform: scale(1);
+    font-size: 18px;
+    float: left;
+}
+.logo,.menuinf{
+    top:-60px;
+    display:inline;
+}
+.contenido1{
+	font-family: 'Muli', sans-serif;
+	margin-top: 20px;
+}
+.boton1{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    display: block;
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: #28A5BE;
+    color: #fff;
+    padding: 1.14286rem 1.71429rem;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: scale(1);
+    font-size: 20px;
+    float:left;
+    vertical-align: center
+}
+
+.boton2{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 0.85714rem 1.71429rem;
+    display: block;
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: #2D2D2D;
+    color: #fff;
+    transform: scale(1);
+    font-size: 16px;
+    float: left;
+
+}
+.boton3{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 10px 10px;
+    display: block;
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    transform: scale(1);
+    font-size: 16px;
+    float: left;
+}
+
+.columna1{
+    overflow: hidden;
+    width: 2000px;
+	font-family: 'Muli', sans-serif;
+	margin-top: 120px;
+	margin-left: 30px;
+}
+.img1 {
+    top:auto;    
+    width: 150%;
+    height: 80%;
+    float: right;
+}
+.columna2{
+	font-family: 'Muli', sans-serif;
+	float: right;
+	margin-top: -450px;
+	margin-left: 750px;
+}
+.columna3{
+    overflow: hidden;
+    display: inline-block;
+    width: 350px;
+	font-family: 'Muli', sans-serif;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.columna4{
+    overflow: hidden;
+    display: inline-block;
+    width: 350px;
+	font-family: 'Muli', sans-serif;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.columna5{
+    overflow: hidden;
+    display: inline-block;
+    width: 350px;
+	font-family: 'Muli', sans-serif;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.contenido2{
+    font-family: 'Muli', sans-serif;
+	margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    width: 1100px;
+    top:10px;
+    background: #DCDCDC;
+}
+.contenido3{
+    font-family: 'Muli', sans-serif;
+	margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    width: 1280px;
+    top:10px;
+    background: #DCDCDC;
+}
+.texto2{
+	font-family: 'Muli', sans-serif;
+	color: #43415A;
+	font-size: 20px;
+    text-align: left;
+}
+.img2{
+    width: 25%;
+    height: 10%;
+    float: left;
+}    
+.img3{
+    margin-left: 33%;
+    width: 50%;
+    height: 30%;
+    float: center;
+}    
+.img4{
+    margin-left: 33%;
+    width: 50%;
+    height: 50%;
+    float: center;
+}    
+.img5{
+    margin-left: 33%;
+    width: 30%;
+    height: 10%;
+    float: center;
+}
+.img6{
+    margin-left: 50%;
+    width: 30%;
+    height: 10%;
+    float: center;
+}
+.img7{
+    margin-left: 25%;
+    width: 30%;
+    height: 10%;
+    float: center;
+}
+.img8{
+    margin-left: 25%;
+    width: 30%;
+    height: 10%;
+    float: center;
+}
+
+.texto1{
+    overflow: hidden;
+    width: auto;
+	font-family: 'Muli', 'sans-serif;
+	color: #43525A;
+	font-size: 45px;
+    text-align: left;
+}
+.texto3{
+    overflow: hidden;
+    width: auto;
+	font-family: 'Muli', sans-serif;
+	color: #43525A;
+	font-size: 45px;
+    text-align: center;
+}
+.texto4{
+	font-family: 'Muli', sans-serif;
+    color: #43415A;
+	font-size: 20px;
+    float: center;
+    text-align: center
+}
+.texto5{
+	font-family: 'Muli', sans-serif;
+    position: relative;
+    color: #43415A;
+	font-size: 20px;
+    float: center;
+    text-align: justify;
+}.texto6{
+	font-family: 'Muli', sans-serif;
+    position: relative;
+    color: #43415A;
+	font-size: 20px;
+    float: center;
+    text-align: justify;
+}.texto7{
+	font-family: 'Muli', sans-serif;
+    position: relative;
+    color: #43415A;
+	font-size: 20px;
+    text-align: justify;
+}
+.rejilla {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1);
+    grid-row-gap: 30px;
+    grid-column-gap: 60px;
+    grid-auto-rows: minmax(auto, auto);
+}
+.rejilla > div {
+  border-radius: 0px;
+  padding: 0px;
+}
+.uno {
+    grid-column: 1 / 1;
+    grid-row: 1 / 3;
+    position: relative;
+}
+.dos {
+    margin-left: 160px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+    position: relative;
+    overflow: hidden;
+}
+.tres {
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+    position: relative;
+}
+.cuatro {
+    margin-left: 160px;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    position: relative;
+    overflow: hidden;
+}
+.cinco {
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+    position: relative;
+}
+.rejilla1{
+    width: 150%;
+}
+.rejilla2{
+    width: 70%;
+}
+.rejilla3{
+    width: 70%;
+    margin-left: -130px; 
+}
+.rejilla4{
+    width: 70%;
+}
+.rejilla5{
+    width: 70%;
+    margin-left: -130px; 
+
+}
+.copyright{
+    display: block;
+    color: gray;
+	font-family: 'Muli', sans-serif;
+    text-align: left;
+    font-size: 12px;
+}
